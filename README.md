@@ -18,4 +18,9 @@ $ stow awesome rofi # plus whatever else you'd like
     awesome
     rofi
     picom
-    alacritty (optional)
+    nitrogen
+    pasystray
+
+## Optional Dependencies
+    alacritty
+
