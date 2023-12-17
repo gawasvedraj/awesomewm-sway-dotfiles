@@ -20,6 +20,7 @@ $ stow awesome rofi # plus whatever else you'd like
     picom
     nitrogen
     pasystray
+    nm-applet
 
 ## Optional Dependencies
     alacritty
