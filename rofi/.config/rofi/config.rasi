@@ -1,0 +1,9 @@
+configuration {
+    modi: "window,drun,ssh,combi";
+    combi-modi: "window,drun,ssh";
+    matching: "fuzzy";
+    sidebar-mode: true;
+    drun-match-fields: "name,generic,exec,categories";
+    show-icons: true;
+} 
+@theme "/usr/share/rofi/themes/solarized_alternate.rasi"
