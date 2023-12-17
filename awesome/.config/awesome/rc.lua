@@ -326,7 +326,18 @@ globalkeys = gears.table.join(
               {description = "lua execute prompt", group = "awesome"}),
     -- Menubar
     awful.key({ modkey }, "p", function() awful.spawn("rofi -show combi") end,
-              {description = "show the menubar", group = "launcher"})
+              {description = "show the menubar", group = "launcher"}),
+    -- Media
+    awful.key({ modkey }, "F1", function() awful.spawn("pactl set-sink-mute 0 toggle") end,
+    	      {description = "toggle speaker mute", group = "media"}),
+
+    awful.key({ modkey }, "F2", function() awful.spawn("pactl set-sink-volume 0 -5%") end,
+    	      {description = "decrease volume", group = "media"}),
+    awful.key({ modkey }, "F3", function() awful.spawn("pactl set-sink-volume 0 +5%") end,
+    	      {description = "increase volume", group = "media"}),
+    awful.key({ modkey }, "F4", function() awful.spawn("pactl set-source-mute 1 toggle") end,
+    	      {description = "toggle mic mute", group = "media"})
+
 )
 
 clientkeys = gears.table.join(
