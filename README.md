@@ -21,6 +21,7 @@ $ stow awesome rofi # plus whatever else you'd like
     nitrogen
     pasystray
     nm-applet
+    pactl
 
 ## Optional Dependencies
     alacritty
