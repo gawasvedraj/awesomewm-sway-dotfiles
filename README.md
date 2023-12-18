@@ -1,20 +1,15 @@
-# Dotfiles
+# Awesome Dotfiles
 
-This is my collection of [configuration files](http://dotfiles.github.io/).
+This is my collection of awesome dotfiles
 
-## Usage
-
-Pull the repository, and then create the symbolic links [using GNU
-stow](https://alexpearce.me/2016/02/managing-dotfiles-with-stow/).
 
 ```shell
-$ git clone git@github.com:gawasvedraj/dotfiles-old.git ~/.dotfiles-old
-$ cd ~/.dotfiles-old
-$ stow awesome rofi # plus whatever else you'd like
+$ git clone git@github.com:gawasvedraj/awesome-dotfiles.git ~/.awesome-dotfiles
+$ cd ~/.awesome-dotfiles
+$ stow awesome rofi
 ```
 
 ## Dependencies
-
     awesome
     rofi
     picom
@@ -25,4 +20,3 @@ $ stow awesome rofi # plus whatever else you'd like
 
 ## Optional Dependencies
     alacritty
-
