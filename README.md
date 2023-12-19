@@ -1,15 +1,15 @@
-# Awesome Dotfiles
+# Dotfiles
 
-This is my collection of awesome dotfiles
+This is my collection of dotfiles
 
 
 ```shell
-$ git clone git@github.com:gawasvedraj/awesome-dotfiles.git ~/.awesome-dotfiles
-$ cd ~/.awesome-dotfiles
-$ stow awesome rofi
+$ git clone git@github.com:gawasvedraj/dotfiles.git ~/.dotfiles
+$ cd ~/dotfiles
+$ stow awesome rofi # etc...
 ```
 
-## Dependencies
+## Awesome Dependencies
     awesome
     rofi
     picom
@@ -17,6 +17,4 @@ $ stow awesome rofi
     pasystray
     nm-applet
     pactl
-
-## Optional Dependencies
     alacritty
