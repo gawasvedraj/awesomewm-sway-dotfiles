@@ -5,7 +5,7 @@ This is my collection of dotfiles
 
 ```shell
 $ git clone git@github.com:gawasvedraj/dotfiles.git ~/.dotfiles
-$ cd ~/dotfiles
+$ cd ~/.dotfiles
 $ stow awesome rofi # etc...
 ```
 
