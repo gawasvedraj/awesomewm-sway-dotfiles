@@ -278,8 +278,6 @@ mode "nag" {
 #
 # Autostart
 #
-    exec picom
-    exec pasystray --enable-appindicator --disable-x11
     exec nm-applet
 
 #
