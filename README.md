@@ -12,6 +12,7 @@ $ stow sway waybar rofi # etc...
     sway
     waybar
     rofi
+    swaybg
     nm-applet
     foot
     pactl
