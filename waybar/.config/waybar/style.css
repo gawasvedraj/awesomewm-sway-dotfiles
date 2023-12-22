@@ -1,9 +1,17 @@
+@import url("./colors.css");
+/* example usage */
+window#waybar {
+background: @background;
+color: @purple;
+/* or cyan, green, orange, pink, red, yellow, foreground, background-darker etc. */
+}
+
 * {
 	font-size: 12px;
 	font-family: monospace;
 }
 
-window#waybar {
+#window#waybar {
 	background: #292b2e;
 	color: #fdf6e3;
 }
