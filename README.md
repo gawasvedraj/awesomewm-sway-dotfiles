@@ -14,6 +14,8 @@ $ stow sway waybar rofi # etc...
     rofi
     nm-applet
     foot
+    pactl
+    playerctl
     
 ## Awesome Dependencies
     awesome
