@@ -4,11 +4,17 @@ This is my collection of dotfiles
 
 
 ```shell
-$ git clone git@github.com:gawasvedraj/dotfiles.git ~/.dotfiles
+$ git clone git@gitlab.com:gawasvedraj/dotfiles.git ~/.dotfiles
 $ cd ~/.dotfiles
-$ stow awesome rofi # etc...
+$ stow sway waybar rofi # etc...
 ```
-
+## Sway Dependencies
+    sway
+    waybar
+    rofi
+    nm-applet
+    foot
+    
 ## Awesome Dependencies
     awesome
     rofi
