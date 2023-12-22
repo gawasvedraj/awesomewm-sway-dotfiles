@@ -272,7 +272,8 @@ mode "nag" {
 #
 # Assign Windows to Workspaces
 #
-    assign [class="Firefox"] workspace 2
+    assign [app_id="firefox"] workspace 2
+    assign [class="Spotify"] workspace 5
 
 #
 # Autostart
