@@ -281,4 +281,13 @@ mode "nag" {
     exec pasystray --enable-appindicator --disable-x11
     exec nm-applet
 
+#
+# Disable Title Bar
+#
+    default_border none
+    default_floating_border none
+    font pango:monospace 0
+    titlebar_padding 1
+    titlebar_border_thickness 0
+
 include /etc/sway/config.d/*
