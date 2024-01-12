@@ -1,11 +1,11 @@
-# Dotfiles
+# Awesome and Sway Dotfiles
 
 This is my collection of dotfiles
 
 
 ```shell
-$ git clone git@gitlab.com:gawasvedraj/dotfiles.git ~/.dotfiles
-$ cd ~/.dotfiles
+$ git clone git@gitlab.com:gawasvedraj/awesome-sway-dotfiles.git ~/.awesome-sway-dotfiles
+$ cd ~/.awesome-sway-dotfiles
 $ stow sway waybar rofi # etc...
 ```
 ## Sway Dependencies
